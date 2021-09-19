@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidYoga</string>
+    <string name="calendar">Calendar</string>
+    <string name="settings">Setting</string>
+    <string name="exercises">Exercises</string>
+    <string name="view_exercise">VIEW EXERCISE</string>
+    <string name="name_of_exercise">NAME OF EXERCISE</string>
+    <string name="start">START</string>
+</resources>

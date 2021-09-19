@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/btnTraining"
+        android:layout_width="86dp"
+        android:layout_height="87dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/play" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnExercises"
+                android:text="@string/exercises"
+                android:textColor="#FAF6F6"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#0B4540"
+                android:background="#0B4540"
+                app:backgroundTint="#0B4540"
+                android:layout_marginStart="8dp"
+                tools:ignore="NestedWeights"
+                android:layout_marginEnd="4dp" />
+
+            <Button
+                android:id="@+id/btnSetting"
+                android:text="@string/settings"
+                android:textColor="#FAF6F6"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:shadowColor="#0B4540"
+                android:background="#0B4540"
+                app:backgroundTint="#0B4540"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="8dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/btnCalendar"
+            android:text="@string/calendar"
+            android:textColor="#FAF6F6"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#0B4540"
+            android:background="#0B4540"
+            app:backgroundTint="#0B4540"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
